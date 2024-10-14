@@ -6,4 +6,5 @@ import pe.edu.upeu.sysalmacenfx.modelo.Producto;
 
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, Long> {
+
 }

@@ -25,4 +25,8 @@ public class Cliente {
     private String repLegal;
     @Column(name = "tipo_documento", nullable = false, length = 12)
     private String tipoDocumento;
+
+    public char[] getIdCliente() {
+        return null;
+    }
 }
