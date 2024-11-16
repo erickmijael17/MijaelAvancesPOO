@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane  xmlns="http://javafx.com/javafx/22" fx:id="bp" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.sysalmacenfx.control.GUIMainFX">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER" fx:id="menuBarFx">
+
+      </MenuBar>
+   </top>
+   <center>
+      <TabPane fx:id="tabPaneFx" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+
+      </TabPane>
+   </center>
+</BorderPane>
